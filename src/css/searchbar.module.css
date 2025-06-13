@@ -1,0 +1,90 @@
+.container {
+  position: relative;
+}
+.wraper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.sContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.btnbox {
+  position: absolute;
+  right: 1px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.search {
+  border-left: 1px solid var(--thin-border-color);
+  width: 45px;
+  padding-left: 12px !important;
+}
+.btnbox span {
+  text-align: center;
+  padding: 5px;
+}
+.close {
+  display: none;
+}
+
+.sContainer input {
+  font-size: 18px;
+  padding: 8px 10px;
+  padding-left: 20px;
+  border: 1px solid var(--thin-border-color);
+  border-radius: 20px;
+  width: 32vw;
+  box-shadow: 0px 1px 3px var(--box-shadow-color) inset;
+  outline: none;
+  padding-right: 110px;
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
+.wraper > span {
+  background-color: var(--icon-bg-color);
+  padding: 5px 7px;
+  border-radius: 50%;
+}
+.suggestionbox {
+  position: absolute;
+  background-color: var(--bg-color);
+  width: 100%;
+  margin-top: 10px;
+  box-shadow: -3px -3px 4px var(--box-shadow-color);
+  border-radius: 10px;
+}
+.suggestionbox li {
+  list-style: none;
+  font-size: 17px;
+  cursor: pointer;
+  padding-block: 7px;
+  padding-left: 13px;
+}
+.suggestionbox ul {
+  padding-left: 0px;
+  margin: 0;
+}
+.space {
+  padding-bottom: 20px !important;
+  padding-top: 10px !important;
+}
+.highlight {
+  background-color: var(--hover-bg-color);
+}
+
+
+@media (max-width:1000px) {
+  .sContainer input{
+    width: 15vw;
+  } 
+}
+@media (max-width:700px) {
+  .sContainer input{
+    width: 50vw;
+  } 
+}

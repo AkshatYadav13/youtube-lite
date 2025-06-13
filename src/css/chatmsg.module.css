@@ -1,0 +1,20 @@
+.msgbox {
+  width: 90%;
+  background-color: var(--hover-bg-color);
+  border-radius: 10px;
+  margin-block: 12px;
+  padding: 10px;
+}
+.infobox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.infobox p {
+  margin: 0px;
+  font-weight: 600;
+}
+.msg {
+  margin: 0;
+}

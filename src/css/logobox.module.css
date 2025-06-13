@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.container span{
+    padding:5px 7px;
+    border-radius:50%;
+}
+.logobox{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.logobox img{
+    width: 31px;
+    border-radius: 7px;
+}
+.logobox p{
+    font-weight:600;
+    font-size: 18px;
+}

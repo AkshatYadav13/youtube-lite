@@ -1,0 +1,4 @@
+.box {
+  border-bottom: 1px solid var(--thin-border-color);
+  margin-right: 10px;
+}
