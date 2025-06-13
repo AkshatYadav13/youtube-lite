@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Chatmsg from "./chatmsg";
+import Chatmsg from "./Chatmsg";
 import { useDispatch, useSelector } from "react-redux";
 import { LiveChatApi, LiveChatIdAPi } from "../constants/ytApi";
 import {  setMessage } from "../utils/chatSlice";
